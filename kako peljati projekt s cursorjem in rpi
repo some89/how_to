@@ -4,6 +4,7 @@ ko hočeš nalagati na pi
 3. SSH na rpi potem pa: 
 sudo apt update  
 sudo apt install gh -y
+sudo apt install git -y
  gh auth login     tukaj se vpišemo (če je public rep. se ni treba za klon vendar je pa potrebno zaradi git push)
 3.1. Pojdi na https://github.com/login/device  in tam potrdi s kodo ki ti jo da vn rpi
 4. Kloniramo repo s: 
@@ -11,3 +12,17 @@ sudo apt install gh -y
 5. Pozenemo cursorja preko ssh na rpi in mu pokažemo projekt na rpi
 6. Popravke iz rpi moramo najprej narediti git commit nato potisniti nazaj na github s git push
 7. Popravke iz githuba pa prenesemo nazaj na pi preko git pull
+
+
+
+Question	Choose
+-Where do you use GitHub?
+GitHub.com
+-Preferred protocol for Git operations?
+HTTPS
+-Authenticate Git with your GitHub credentials?
+Y
+-How would you like to authenticate GitHub CLI?
+Login with a web browser
+
+potem kodo ki jo dobis autentikiraš na strani https://github.com/login/device
