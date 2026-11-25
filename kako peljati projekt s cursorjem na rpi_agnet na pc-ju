@@ -1,0 +1,10 @@
+Zaradi manjše obremenitve ciljne naprave je ta metoda boljša
+
+
+vzpostaviti moraš povezavo na rpi preko ssh s win. comand line
+ssh  (ime cilne naprave)@(ip ciljne naprave)
+vnsesš geslo ki je bilo določeno ob namestitivi osja/konfiguraciji
+ob prvi povezavi se pojavi varnostno uprašanje če hočeš da win doda v seznam naprav za povezovanje ssh...potrdimo
+če je vse prav je povezava vzpostavljena
+
+cursorju delimo ip, ime, geslo za dostop do naprave
