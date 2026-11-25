@@ -1,0 +1,15 @@
+za odstranjevane naprav iz seznama na pcju 
+ssh-keygen -R (ime naprave)
+ssh-keygen -R (ime naprave).local
+
+ssh-keygen -R (ip naprave)
+
+
+za vzpostavitev povezave 
+ssh (ime naprave)@(ip naprave)
+vnesemo geslo naprave
+in potrdimo s yes
+
+
+pot kjer se nahajajo povezave
+C:\Users\<you>\.ssh\config
